@@ -1,17 +1,18 @@
-# OIBSIP-Project1 : Online Reservation System
+# OIBSIP-Project2 : Number Guessing Game
 
-__Oasis Infobyte Internship - Task 1 :-__
 
-Completed Task 1 of name Online Reservation System in Java Peogramming language using Eclipse IDE.
+__Oasis Infobyte Internship - Task 2 :-__
 
-Steps Required : 
+Completed Task 2 of name Number Guessing Game in Java Peogramming language using Eclipse IDE.
 
-1. First, the code creates an array of boolean values called seats with a length of 10. Each element in the array represents a seat, and the value true indicates that the seat is reserved, while false indicates that the seat is available.
+Steps Required :
 
-2. The main method sets up a loop that displays a menu of options to the user and gets their input. The user can choose to view the current seat map, reserve a seat, cancel a reservation, or exit the program.
+1. In this implementation, we first create a Scanner object to read input from the user and a Random object to generate a random number between 1 and 100, inclusive.
 
-3. The viewSeatMap method simply prints the current state of the seats array to the console, with an "X" indicating a reserved seat and the seat number indicating an available seat.
+2. We then use a while loop to repeatedly prompt the user for a guess until they correctly guess the number. We keep track of the number of tries it takes the user to guess the number by incrementing a tries variable each time through the loop.
 
-4. The reserveSeat method prompts the user to enter a seat number, checks if the input is valid, and if the seat is available, sets the corresponding element in the seats array to true to reserve the seat.
+3. Inside the loop, we use if statements to determine whether the user's guess is too high or too low, or if they've guessed the correct number. If the user guesses correctly, we print a congratulatory message and display the number of tries it took.
 
-5. The cancelReservation method works similarly to the reserveSeat method, but instead sets the corresponding element in the seats array to false to cancel the reservation
+4. Finally, we close the Scanner object to free up system resources.
+
+I hope this helps you create your own number guessing game in Java!
